@@ -916,8 +916,8 @@ export default function AdminPage() {
       >
         <div className="max-w-sm w-full mx-auto my-auto py-4">
           <div className="text-center mb-8">
-            <div className="w-16 h-16 rounded-2xl bg-[#879B59] text-white flex items-center justify-center mx-auto mb-4 shadow-md overflow-hidden p-0.5 border border-[#879B59]">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-xl" />
+            <div className="w-16 h-16 rounded-2xl bg-[#f5f0e4] text-[#879B59] flex items-center justify-center mx-auto mb-4 shadow-md overflow-hidden p-1 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-xl" />
             </div>
             <h1 className="text-2xl font-serif font-medium text-[#0B192C] mb-1">
               {config.storeName}
@@ -1057,8 +1057,8 @@ export default function AdminPage() {
       <div className="lg:hidden bg-white/95 backdrop-blur-md border-b border-[#E3DCCA] sticky top-0 z-30">
         <div className="px-4 py-3 flex items-center justify-between gap-3">
           <div className="flex items-center gap-2.5 min-w-0">
-            <div className="w-10 h-10 rounded-xl bg-[#879B59] flex items-center justify-center text-white shrink-0 overflow-hidden p-0.5 border border-[#879B59]">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-lg" />
+            <div className="w-10 h-10 rounded-xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] shrink-0 overflow-hidden p-0.5 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div className="min-w-0">
               <span className="font-semibold text-sm text-[#0B192C] block leading-tight truncate font-serif">
@@ -1130,8 +1130,8 @@ export default function AdminPage() {
         <div>
           {/* Brand header */}
           <div className="flex items-center gap-3 px-2 py-3 mb-5 border-b border-[#E3DCCA]/60">
-            <div className="w-11 h-11 rounded-xl bg-[#879B59] flex items-center justify-center text-white flex-shrink-0 overflow-hidden p-0.5 border border-[#879B59]">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-lg" />
+            <div className="w-11 h-11 rounded-xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] flex-shrink-0 overflow-hidden p-0.5 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div className="truncate">
               <span className="font-semibold text-sm text-[#0B192C] block leading-tight truncate font-serif">

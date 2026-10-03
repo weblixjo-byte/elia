@@ -835,8 +835,8 @@ export default function CustomerPage() {
     return (
       <div className="min-h-screen bg-[#F8FAFC] flex items-center justify-center p-6">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-16 h-16 rounded-3xl bg-[#879B59] flex items-center justify-center text-white shadow-md overflow-hidden p-0.5 border border-[#879B59]/20">
-            <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-2xl" />
+          <div className="w-16 h-16 rounded-3xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] shadow-md overflow-hidden p-1 border border-[#E3DCCA]">
+            <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-2xl" />
           </div>
           <div className="flex items-center justify-center gap-2.5 py-1">
             <span className="w-3.5 h-3.5 rounded-full bg-[#879B59] animate-dot-1 shadow-[0_2px_8px_rgba(135,155,89,0.35)]" />
@@ -856,8 +856,8 @@ export default function CustomerPage() {
         <div className="max-w-md w-full mx-auto my-auto">
           {/* Brand header */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 rounded-2xl bg-[#879B59] flex items-center justify-center text-white mx-auto mb-4 shadow-md overflow-hidden p-0.5 border border-[#879B59]">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-xl" />
+            <div className="w-16 h-16 rounded-2xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] mx-auto mb-4 shadow-md overflow-hidden p-1 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-xl" />
             </div>
             <h1 className="text-2xl font-serif font-medium text-[#0B192C] mb-1">
               {config.storeName}
@@ -1040,8 +1040,8 @@ export default function CustomerPage() {
       <header className="glass-panel border-x-0 border-t-0 rounded-none sticky top-0 z-20 px-4 py-3">
         <div className="max-w-md mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-[#879B59] flex items-center justify-center text-white overflow-hidden p-0.5 border border-[#879B59]">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-lg" />
+            <div className="w-9 h-9 rounded-xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] overflow-hidden p-0.5 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div>
               <span className="font-semibold text-xs tracking-tight text-[#0B192C] block font-serif">
@@ -1188,8 +1188,8 @@ export default function CustomerPage() {
                   </div>
                 </div>
 
-                <div className="w-10 h-10 rounded-xl bg-[#879B59] flex items-center justify-center text-white shadow-xs overflow-hidden p-0.5 border border-[#879B59]">
-                  <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-lg" />
+                <div className="w-10 h-10 rounded-xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] shadow-xs overflow-hidden p-0.5 border border-[#E3DCCA]">
+                  <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-lg" />
                 </div>
               </div>
 
@@ -1778,8 +1778,8 @@ export default function CustomerPage() {
             </button>
 
             <div className="flex items-start gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-[#879B59] flex items-center justify-center text-white shrink-0 overflow-hidden p-0.5 border border-[#879B59]/30 shadow-md">
-                <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-xl" />
+              <div className="w-12 h-12 rounded-2xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] shrink-0 overflow-hidden p-1 border border-[#E3DCCA] shadow-md">
+                <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-xl" />
               </div>
 
               <div className="flex-1 min-w-0 pr-3">

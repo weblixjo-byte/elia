@@ -397,8 +397,8 @@ export default function CashierPage() {
       <div className="min-h-screen bg-[#F8FAFC] flex flex-col justify-between p-4 sm:p-6 select-none font-sans">
         <div className="max-w-sm w-full mx-auto my-auto py-4">
           <div className="text-center mb-6">
-            <div className="w-16 h-16 rounded-2xl bg-[#879B59] flex items-center justify-center mx-auto mb-3 shadow-md border border-[#879B59]/20 overflow-hidden p-0.5">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-xl" />
+            <div className="w-16 h-16 rounded-2xl bg-[#f5f0e4] flex items-center justify-center mx-auto mb-3 shadow-md border border-[#E3DCCA] overflow-hidden p-1">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-xl" />
             </div>
             <h1 className="text-2xl font-bold text-[#0B192C] mb-1">
               Cashier Terminal
@@ -552,8 +552,8 @@ export default function CashierPage() {
         <div className="max-w-2xl mx-auto flex items-center justify-between gap-2">
           {/* Cashier Info */}
           <div className="flex items-center gap-2.5 min-w-0">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#879B59] flex items-center justify-center text-white shrink-0 overflow-hidden p-0.5 border border-[#879B59]/20">
-              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-cover rounded-lg" />
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#f5f0e4] flex items-center justify-center text-[#879B59] shrink-0 overflow-hidden p-0.5 border border-[#E3DCCA]">
+              <img src="/logo.png" alt="kukh elia" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div className="min-w-0">
               <div className="flex items-center gap-1.5">
